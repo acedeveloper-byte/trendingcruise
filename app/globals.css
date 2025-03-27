@@ -1,0 +1,406 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+/* ................................................ */
+/* Header Styles */
+.navbar {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Logo */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+}
+
+.contact-section span {
+  font-size: 14px;
+  color: #666;
+  margin-right: 5px;
+}
+
+.contact-section a {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+/* Cruise Image */
+.hero-image img {
+  width: 100%;
+  height: 335px;
+  object-fit: cover;
+}
+
+/* Search Bar */
+.search-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+/* Labels */
+.search-container label {
+  font-weight: 600;
+}
+
+/* Select Box */
+.search-container select {
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+}
+
+/* Search Button */
+.btn-search {
+  background-color: #007bff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-search:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background: #f2f6fb;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #007bff;
+}
+
+/* Payment Methods */
+.payment-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.payment-section img {
+  width: 50px;
+  height: auto;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.social-icons svg:hover {
+  color: #007bff;
+}
+
+
+
+
+
+
+
+/* Section Styling */
+.destinations {
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+
+/* Destination Card */
+.destination-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  border: none;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Image */
+.destination-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Destination Name */
+.destination-name {
+  background: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -30px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+
+
+/* Destination Box */
+.destination-box {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  border: none;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px; /* Space for text */
+}
+
+.destination-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Image */
+.destination-img {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+/* Destination Name (Fixing Position) */
+.destination-name {
+  background: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 17px;
+  /* left: 50%; */
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 48%;
+}
+
+
+
+
+
+
+/* Cruise Banner Styling */
+.cruise-banner {
+  position: relative;
+  width: 100%;
+  /* background: url('/images/banner.png') center/cover no-repeat; */
+  border-radius: 20px;
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+/* Dark Overlay */
+.overlay {
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: url('/images/banner.png') center/cover no-repeat;
+  padding: 20px;
+  border-radius: 20px;
+  width: 90%;
+  /* max-width: 900px; */
+}
+
+/* Title */
+.overlay h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.overlay p {
+  color: #ddd;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  background: #008000;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #006400;
+}
+
+
+
+/* Stats Section */
+.stats-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0;
+}
+
+/* Individual Stat Item */
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .icon {
+  font-size: 40px;
+  color: black;
+}
+
+.stat-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+
