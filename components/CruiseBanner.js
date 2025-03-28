@@ -9,7 +9,7 @@ const CruiseBanner = () => {
         <p>
           From intimate getaways to grand voyages, we offer the perfect sailing experience for every traveler.
         </p>
-        <a href="tel:+1-000-000-0000" className="cta-button">+1-000-000-0000</a>
+        <a href="tel:+1(855) 590-0764" className="cta-button">+1(855) 590-0764</a>
       </div>
     </section>
   );
