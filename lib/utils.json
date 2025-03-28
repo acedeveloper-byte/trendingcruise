@@ -1,0 +1,212 @@
+[
+  {
+    "cruiseDeals": [
+      {
+        "destination": "Alaska",
+        "title": "7 Nights Northbound Alaska & Hubbard Glacier",
+        "price": "$1,199",
+        "description": "Sail through the breathtaking landscapes of Alaska and witness the majestic Hubbard Glacier.",
+        "image": "https://example.com/alaska1.jpg",
+        "link": "https://example.com/alaska-northbound"
+      },
+      {
+        "destination": "Alaska",
+        "title": "7 Nights Southbound Alaska & Hubbard Glacier",
+        "price": "$1,199",
+        "description": "Explore the rugged Alaskan wilderness as you cruise southbound from Hubbard Glacier.",
+        "image": "https://example.com/alaska2.jpg",
+        "link": "https://example.com/alaska-southbound"
+      },
+      {
+        "destination": "Caribbean",
+        "title": "5 Nights Western Caribbean Cruise",
+        "price": "$799",
+        "description": "Discover the sun-kissed beaches and vibrant culture of the Western Caribbean on this 5-night cruise.",
+        "image": "https://example.com/caribbean1.jpg",
+        "link": "https://example.com/western-caribbean"
+      },
+      {
+        "destination": "Caribbean",
+        "title": "7 Nights Eastern Caribbean Cruise",
+        "price": "$999",
+        "description": "Enjoy a week of tropical bliss as you sail through the stunning islands of the Eastern Caribbean.",
+        "image": "https://example.com/caribbean2.jpg",
+        "link": "https://example.com/eastern-caribbean"
+      },
+      {
+        "destination": "Europe",
+        "title": "10 Nights Mediterranean Explorer",
+        "price": "$1,499",
+        "description": "Immerse yourself in the history and beauty of the Mediterranean with this exclusive 10-night cruise.",
+        "image": "https://example.com/mediterranean.jpg",
+        "link": "https://example.com/mediterranean-explorer"
+      },
+      {
+        "destination": "Europe",
+        "title": "12 Nights Northern Europe & Baltic Cruise",
+        "price": "$1,799",
+        "description": "Experience the charm of Northern Europe's cities and the scenic beauty of the Baltic Sea.",
+        "image": "https://example.com/northern-europe.jpg",
+        "link": "https://example.com/northern-europe-baltic"
+      },
+      {
+        "title": "3 Nights Bahamas Cruise",
+        "ship": "Disney Magic",
+        "departing_from": "Fort Lauderdale",
+        "price": "$500",
+        "offers": [
+          "Instant Savings up to $150 Plus Onboard Credit",
+          "Free Gratuities",
+          "Exclusive discount for 2nd Guest"
+        ],
+        "image": "/images/cruise/cruise_img1.jpg",
+        "logo": "/images/cruise/disney-logon.png",
+        "booking_number": "+1-888-539-5271"
+      },
+      {
+        "title": "3 Nights Australia Cruise",
+        "ship": "Disney Wonder",
+        "departing_from": "Melbourne",
+        "price": "$1090",
+        "offers": [
+          "Up to 15% off",
+          "Onboard Credit",
+          "Free Gratuities & Kids Sail Free"
+        ],
+        "image": "/images/cruise/cruise_img2.jpg",
+        "logo": "/images/cruise/disney-logon.png",
+        "booking_number": "+1-888-539-5271"
+      },
+      {
+        "title": "3 Nights Pacific Coastal Cruise",
+        "ship": "Disney Magic",
+        "departing_from": "San Diego",
+        "price": "$180",
+        "offers": [
+          "Instant savings up to 25% plus Kids Sail Free",
+          "Free Gratuities",
+          "Exclusive discount for 2nd Guest"
+        ],
+        "image": "/images/cruise/cruise_img3.jpg",
+        "logo": "/images/cruise/disney-logon.png",
+        "booking_number": "+1-888-539-5271"
+      },
+      {
+        "title": "4 Nights Western Caribbean",
+        "ship": "Disney Magic",
+        "departing_from": "Galveston",
+        "price": "$600",
+        "offers": [
+          "Instant Savings up to $350",
+          "Free Gratuities",
+          "Onboard Credit Plus Kids under 12 Sail Free"
+        ],
+        "image": "/images/cruise/cruise_img4.jpg",
+        "logo": "/images/cruise/disney-logon.png",
+        "booking_number": "+1-888-539-5271"
+      },
+      {
+        "title": "7 Nights Mexican Riviera",
+        "ship": "Disney Wonder",
+        "departing_from": "Long Beach",
+        "price": "$400",
+        "offers": [
+          "Up to 25% instant savings",
+          "Free Gratuities",
+          "On Board Credit"
+        ],
+        "image": "/images/cruise/cruise_img5.jpg",
+        "logo": "/images/cruise/disney-logon.png",
+        "booking_number": "+1-888-539-5271"
+      }
+    ]
+  },
+  {
+    "cruises": [
+      {
+        "title": "4 Nights Mediterranean Cruise",
+        "ship": "Azamara Onward",
+        "departing_from": "Barcelona",
+        "price_from": "$500",
+        "image": "/images/cruise/cruise_img1.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Instant Savings up to $150 Plus Onboard Credit",
+          "Free Gratuities",
+          "Exclusive discount for 2nd Guest"
+        ],
+        "contact": "+1-888-539-5271"
+      },
+      {
+        "title": "10 Nights Europe Cruise",
+        "ship": "Azamara Onward",
+        "departing_from": "Southampton",
+        "price_from": "$1090",
+        "image": "/images/cruise/cruise_img2.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Up to 15% off",
+          "Onboard Credit",
+          "Free Gratuities & Kids Sail Free"
+        ],
+        "contact": "+1-888-539-5271"
+      },
+      {
+        "title": "10 Nights Mediterranean Icons Voyage",
+        "ship": "Azamara Onward",
+        "departing_from": "Civitavecchia (Rome)",
+        "price_from": "$180",
+        "image": "/images/cruise/cruise_img3.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Instant savings up to 25% plus Kids Sail Free",
+          "Free Gratuities",
+          "Exclusive discount for 2nd Guest"
+        ],
+        "contact": "+1-888-539-5271"
+      },
+      {
+        "title": "5 Nights Mediterranean Cruise",
+        "ship": "Azamara Quest",
+        "departing_from": "Barcelona",
+        "price_from": "$600",
+        "image": "/images/cruise/cruise_img4.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Instant Savings up to $350",
+          "Free Gratuities",
+          "Onboard Credit Plus Kids under 12 Sail Free"
+        ],
+        "contact": "+1-888-539-5271"
+      },
+      {
+        "title": "15 Nights Bahamas Cruise",
+        "ship": "Azamara Quest",
+        "departing_from": "Cape Town",
+        "price_from": "$400",
+        "image": "/images/cruise/cruise_img5.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Up to 25% instant savings",
+          "Free Gratuities",
+          "On Board Credit"
+        ],
+        "contact": "+1-888-539-5271"
+      },
+      {
+        "title": "7 Nights Caribbean Cruise",
+        "ship": "Azamara Journey",
+        "departing_from": "Miami",
+        "price_from": "$750",
+        "image": "/images/cruise/cruise_img6.jpg",
+        "logo": "/images/cruise/azamara-cruise-logo.png",
+        "offers": [
+          "Early Booking Discount",
+          "Up to $500 Onboard Credit",
+          "Kids Sail Free"
+        ],
+        "contact": "+1-888-539-5271"
+      }
+    ]
+  }
+]
