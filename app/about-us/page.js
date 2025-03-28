@@ -14,7 +14,6 @@ const page = () => {
           <img src="/images/cruise-home-poster.png" alt="Cruise Ship" className="img-fluid" />
         </div>
       </div>
-
       <section>
         <Container>
           <Col md={12}>
