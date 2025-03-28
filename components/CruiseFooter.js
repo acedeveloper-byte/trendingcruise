@@ -13,48 +13,41 @@ const CruiseFooter = () => {
             {/* Left Section */}
             <Col md={4}>
               <img src="/images/logo/logo.png" className="img-fluid " alt="cruise brand" />
-              <h2>TrendingCruise</h2>
               <h4 className="fw-bold text-dark">+1-000-000-0000</h4>
               <p className="text-muted small">
                 Visit Trending Cruise to book your next cruise vacation, and get ready to sail at unbeatable prices. We don’t guarantee the displayed prices at the time of booking as they are based on historical data and tend to change. For discounted prices, book in advance.</p>
             </Col>
 
+            <Col md={2} sm={2}>
+              <h5>Legal</h5>
+              <ul className="list-unstyled">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Cookies Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+               
+              </ul>
+            </Col>
+
             {/* Middle Sections */}
             <Col md={2} sm={2}>
-              <h5>About</h5>
+              <h5>The Company</h5>
               <ul className="list-unstyled">
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Article</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Business Class</a></li>
+              
               </ul>
             </Col>
 
-            <Col md={2} sm={2}>
-              <h5>Booking</h5>
-              <ul className="list-unstyled">
-                <li><a href="#">Bahamas</a></li>
-                <li><a href="#">Europe</a></li>
-                <li><a href="#">Caribbean</a></li>
-                <li><a href="#">Alaska</a></li>
-                <li><a href="#">Mexico</a></li>
-                <li><a href="#">Canada</a></li>
-              </ul>
-            </Col>
+           
 
             <Col md={2}>
-              <h5>Other Links</h5>
+              <h5>Quick Links</h5>
               <ul className="list-unstyled">
-                <li><a href="#">Airlines</a></li>
-                <li><a href="#">Espanol</a></li>
-                <li><a href="#">Flight Booking</a></li>
-                <li><a href="#">International Flights</a></li>
-                <li><a href="#">Visa</a></li>
-                <li><a href="#">Airports</a></li>
-                <li><a href="#">Forum</a></li>
+                <li><a href="#">Our Service Fees</a></li>
+                <li><a href="#">Post-Ticketing Fees</a></li>
+                <li><a href="#">Taxes & Fees</a></li>
+              
               </ul>
             </Col>
           </Row>
