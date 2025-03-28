@@ -21,9 +21,9 @@ const CruiseHeader = () => {
           {/* Navigation Links */}
           <Navbar.Collapse id="navbarNav">
             <Nav className="ms-auto">
-              <Nav.Link href="/">Cruise</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about-us">About Us</Nav.Link>
-              <Nav.Link href="#">Contact Us</Nav.Link>
+              <Nav.Link href="/contact-us">Contact Us</Nav.Link>
             </Nav>
 
             {/* Contact Section */}
