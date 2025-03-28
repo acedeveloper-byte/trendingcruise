@@ -1,27 +1,27 @@
-import React from 'react'
-import CruiseHeader from './CruiseHeader'
-import CruiseSearch from './CruiseSearch'
-import CruiseFooter from './CruiseFooter'
-import ExploreDestination from './ExploreDestination'
-import CruiseBanner from './CruiseBanner'
-import StatsSection from './StatsSection'
-import OceanicJourneys from './OceanicJourneys'
+import React from "react";
+import CruiseHeader from "./CruiseHeader";
+import CruiseSearch from "./CruiseSearch";
+import CruiseFooter from "./CruiseFooter";
+import ExploreDestination from "./ExploreDestination";
+import CruiseBanner from "./CruiseBanner";
+import StatsSection from "./StatsSection";
+import OceanicJourneys from "./OceanicJourneys";
 
 const Home = () => {
   return (
     <>
-       <CruiseHeader/>
-       <CruiseSearch/>
-<ExploreDestination/>
+      <CruiseHeader />
+      <CruiseSearch />
+      <ExploreDestination />
 
-<CruiseBanner/>
+      <CruiseBanner />
 
-<StatsSection/>
+      <StatsSection />
 
-<OceanicJourneys/>
-       <CruiseFooter/>
+      <OceanicJourneys />
+      <CruiseFooter />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

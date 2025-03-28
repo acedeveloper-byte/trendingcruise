@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaPinterest, FaXTwitter, FaLinkedin } from "re
 const CruiseFooter = () => {
   return (
     <div>
-      <footer className="footer">
+      <footer className="footer " style={{marginTop: '5rem'}}>
       <Container>
         <Row>
           {/* Left Section */}
@@ -15,9 +15,8 @@ const CruiseFooter = () => {
             <h2>TrendingCruise</h2>
             <h4 className="fw-bold text-dark">+1-000-000-0000</h4>
             <p className="text-muted small">
-              *Fares incl. all fuel surcharges, our service fees and taxes. Displayed fares are based on historical data,
-              are subject to change and cannot be guaranteed at the time of booking. Lowest fares may require an advance
-              purchase of up to 21 days.
+            Visit Trending Cruise to book your next cruise vacation, and get ready to sail at unbeatable prices. We don’t guarantee the displayed prices at the time of booking as they are based on historical data and tend to change. For discounted prices, book in advance. 
+
             </p>
           </Col>
 

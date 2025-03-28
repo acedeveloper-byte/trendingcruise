@@ -131,8 +131,10 @@ a {
 
 /* Labels */
 .search-container label {
-  font-weight: 600;
+  font-weight: 700;
+    font-size: 15px;
 }
+
 
 /* Select Box */
 .search-container select {
@@ -404,3 +406,36 @@ a {
 }
 
 
+.expert-contact {
+  text-align: center;
+}
+
+.expert-text {
+  font-size: 11px;
+    color: black;
+    display: block;
+    font-weight: 400;
+}
+
+.expert-phone {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0030ff;
+  text-decoration: none;
+  display: block;
+}
+
+.expert-phone:hover {
+  text-decoration: underline;
+}
+
+
+
+/* .title-h1{
+  text-align: center;
+    position: relative;
+    top: -18rem;
+    color: #0226a3;
+    font-weight: 700;
+    font-size: 46px;
+} */

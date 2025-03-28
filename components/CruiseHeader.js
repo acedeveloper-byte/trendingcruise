@@ -21,18 +21,19 @@ const CruiseHeader = () => {
         {/* Navigation Links */}
         <Navbar.Collapse id="navbarNav">
           <Nav className="ms-auto">
-            <Nav.Link href="#">Cruise</Nav.Link>
-            <Nav.Link href="#">About Us</Nav.Link>
+            <Nav.Link href="/">Cruise</Nav.Link>
+            <Nav.Link href="/about-us">About Us</Nav.Link>
             <Nav.Link href="#">Contact Us</Nav.Link>
           </Nav>
 
           {/* Contact Section */}
-          <div className="ms-3 d-flex align-items-center border-start ps-3">
-            <span className="text-muted small me-1">Speak to an expert now</span>
-            <a href="tel:+1-000-000-0000" className="text-primary fw-bold">
-            +1-000-000-0000
-            </a>
-          </div>
+          <div className="expert-contact">
+  <span className="expert-text">Speak to an expert now</span>
+  <a href="tel: +1-000-0000-000" className="expert-phone">
+    +1-000-0000-000
+  </a>
+</div>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
