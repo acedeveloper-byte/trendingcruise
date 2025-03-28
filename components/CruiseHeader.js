@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import { Navbar, Nav, Container, Col, Row } from "react-bootstrap";
-// import "./globals.css";
 
 
 const CruiseHeader = () => {
@@ -10,15 +8,12 @@ const CruiseHeader = () => {
     <div>
       <Navbar expand="lg" className="bg-white shadow-sm py-2">
         <Container>
-          {/* Logo */}
           <Navbar.Brand href="/">
             <span className="fw-bold fs-4"><img src="/images/logo/logo.png" className="img-responsive img-fluid" alt="cruise brand" /></span>
           </Navbar.Brand>
 
-          {/* Toggle Button for Mobile */}
           <Navbar.Toggle aria-controls="navbarNav" />
 
-          {/* Navigation Links */}
           <Navbar.Collapse id="navbarNav">
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
@@ -26,7 +21,6 @@ const CruiseHeader = () => {
               <Nav.Link href="/contact-us">Contact Us</Nav.Link>
             </Nav>
 
-            {/* Contact Section */}
             <div className="expert-contact">
               <span className="expert-text">Speak to an expert now</span>
               <a href="tel: +1-000-0000-000" className="expert-phone">
