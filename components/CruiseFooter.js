@@ -23,7 +23,7 @@ const CruiseFooter = () => {
                 className="img-fluid "
                 alt="cruise brand"
               />
-              <h4 className="fw-bold text-dark">+1-000-000-0000</h4>
+              <h4 className="fw-bold text-dark"><a href="tel: +1(855) 590-0764" className="text-decoration-none text-dark">+1(855) 590-0764</a></h4>
               <p className="text-muted small">
                 Visit Trending Cruise to book your next cruise vacation, and get
                 ready to sail at unbeatable prices. We don’t guarantee the

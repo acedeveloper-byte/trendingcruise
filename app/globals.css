@@ -474,15 +474,42 @@ p{
 }
 
 
+
+.form-search .input {
+  border: none;
+}
+
+
+
 /* Extra small devices (phones, up to 576px) */
 @media (max-width: 576px) {
   .contact-card .card{
     width: 100%;
     margin: 50px 0px 30px 0px
 }
+
+.mob-search{
+  width: 95% !important;
+  background: #212529b5;
+  color: #fff;
+  font-weight: 500;
+}
+
+
+.cruise-image img{
+  width: 88% !important;
+    margin-top: 23px !important; 
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
   /* Styles for landscape phones */
+
+
+
 }
+
+
+

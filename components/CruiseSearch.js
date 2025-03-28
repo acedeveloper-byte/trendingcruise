@@ -15,9 +15,9 @@ const CruiseSearch = () => {
      </h1>
      </div> */}
       {/* Search Bar */}
-      <Container className="search-container">
+      <Container className="search-container mob-search" >
 
-        <Row className="align-items-center">
+        <Row className="align-items-center form-search">
           <Col md={3}>
             <Form.Group>
               <Form.Label>Cruising to</Form.Label>

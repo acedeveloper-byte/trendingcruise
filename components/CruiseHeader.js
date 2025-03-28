@@ -23,8 +23,8 @@ const CruiseHeader = () => {
 
             <div className="expert-contact">
               <span className="expert-text">Speak to an expert now</span>
-              <a href="tel: +1-000-0000-000" className="expert-phone">
-                +1-000-0000-000
+              <a href="tel: +1(855) 590-0764" className="expert-phone">
+                +1(855) 590-0764
               </a>
             </div>
 
