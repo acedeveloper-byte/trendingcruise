@@ -14,8 +14,24 @@ const CruiseFooter = () => {
   return (
     <div>
       <footer className="footer " style={{ marginTop: "5rem" }}>
+     
+
+
         <Container>
-          <Row>
+        <div style={{padding: '20px',
+    borderRadius: '17px',
+    background: '#d4daf2'}}>
+            <span className="fw-bold py-2">Disclaimer:</span> Trending Cruise is your one-stop platform for booking
+            your next cruise adventure. We help you find the best cruise that
+            suits your preferences and budget. Please note that we are an
+            independent third-party agent, and not directly associated with any
+            cruise line. We connect customers with their dream cruises for a
+            memorable vacation at low prices. Connect with us now to make your
+            travel planning seamless.
+          </div>
+
+
+          <Row className="my-5">
             {/* Left Section */}
             <Col md={4}>
               <img
@@ -23,7 +39,14 @@ const CruiseFooter = () => {
                 className="img-fluid "
                 alt="cruise brand"
               />
-              <h4 className="fw-bold text-dark"><a href="tel: +1(855) 590-0764" className="text-decoration-none text-dark">+1(855) 590-0764</a></h4>
+              <h4 className="fw-bold text-dark">
+                <a
+                  href="tel: +1(855) 590-0764"
+                  className="text-decoration-none text-dark"
+                >
+                  +1(855) 590-0764
+                </a>
+              </h4>
               <p className="text-muted small">
                 Visit Trending Cruise to book your next cruise vacation, and get
                 ready to sail at unbeatable prices. We don’t guarantee the
@@ -124,9 +147,9 @@ const CruiseFooter = () => {
 
           {/* Terms & Policy */}
           <p className="text-center text-muted small mt-3">
-            All users agree to Trending Cruise Terms & Conditions and
-            Privacy Policy. All users are subject to our Service Fees and Post
-            Ticketing Fees.
+            All users agree to Trending Cruise Terms & Conditions and Privacy
+            Policy. All users are subject to our Service Fees and Post Ticketing
+            Fees.
           </p>
         </Container>
       </footer>
