@@ -6,6 +6,7 @@ import ExploreDestination from "./ExploreDestination";
 import CruiseBanner from "./CruiseBanner";
 import StatsSection from "./StatsSection";
 import OceanicJourneys from "./OceanicJourneys";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
   return (
