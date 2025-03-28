@@ -84,31 +84,31 @@ const CruiseFooter = () => {
           <div className="payment-section">
             <Row>
               <Col>
-                <img src="/images/visa.png" alt="Visa" />
+                <img src="/images/Visa.png" alt="Visa" />
               </Col>
               <Col>
-                <img src="/images/stripe.png" alt="Stripe" />
+                <img src="/images/Stripe.png" alt="Stripe" />
               </Col>
               <Col>
-                <img src="/images/paypal.png" alt="paypal" />
+                <img src="/images/Paypal.png" alt="paypal" />
               </Col>
               <Col>
-                <img src="/images/discover.png" alt="discover" />
+                <img src="/images/Discover.png" alt="discover" />
               </Col>
               <Col>
-                <img src="/images/maestro.png" alt="maestro" />
+                <img src="/images/Maestro.png" alt="maestro" />
               </Col>
               <Col>
-                <img src="/images/mastercard.png" alt="maestro" />
+                <img src="/images/MasterCard.png" alt="maestro" />
               </Col>
               <Col>
                 <img src="/images/jcb.png" alt="jcb" />
               </Col>
               <Col>
-                <img src="/images/amex.png" alt="amex" />
+                <img src="/images/Amex.png" alt="amex" />
               </Col>
               <Col>
-                <img src="/images/affirm.png" alt="affirm" />
+                <img src="/images/Affirm.png" alt="affirm" />
               </Col>
             </Row>
           </div>
