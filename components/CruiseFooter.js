@@ -124,7 +124,7 @@ const CruiseFooter = () => {
 
           {/* Terms & Policy */}
           <p className="text-center text-muted small mt-3">
-            All users agree to All Seasons Travel LLC Terms & Conditions and
+            All users agree to Trending Cruise Terms & Conditions and
             Privacy Policy. All users are subject to our Service Fees and Post
             Ticketing Fees.
           </p>

@@ -57,7 +57,7 @@ const CruisePage = () => {
                 <div className="text-center m-5">
 
                     <h1>
-                        All Seasons Travel LLC Exclusive {name} Cruise Deals
+                        Trending Cruise Exclusive {name} Cruise Deals
                     </h1>
                 </div>
                 <Container>
