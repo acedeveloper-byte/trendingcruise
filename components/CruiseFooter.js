@@ -63,9 +63,28 @@ const CruiseFooter = () => {
                 </li>
               </ul>
             </Col>
+            <Col md={2} sm={2}>
+              <h5>Our Cruise</h5>
+              {["celebrity", "holland", "disney", "azamara", "norwegian", "royal-caribbean"].map((item, index) => (
+                <Col key={index} xs="auto" className="">
+                  <ul className="list-unstyled">
+                    <li>
+                      <a
+                        className="text-decoration-none text-black"
+                        style={{ fontSize: "12px", }}
+                        href={`/${item}`}
+                      >
+                        {item.replace("-", "").toUpperCase()} CRUISE
+                      </a>
+                    </li>
+                  </ul>
+                </Col>
+              ))}
+
+            </Col>
 
             <Col md={2}>
-              <h5>Quck Links</h5>
+              <h5>Quick Links</h5>
               <ul className="list-unstyled">
                 <li>
                   <Link href="/service-fees">Our Service Fees</Link>
@@ -129,6 +148,8 @@ const CruiseFooter = () => {
             Ticketing Fees.
           </p>
         </Container>
+
+
       </footer>
     </div>
   );
