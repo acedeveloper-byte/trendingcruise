@@ -7,16 +7,16 @@ const CruiseSearch = () => {
     <div className="hero-section">
       {/* Background Image */}
       <div className="hero-image">
-      
+
         <img src="/images/cruise-home-poster.png" alt="Cruise Ship" className="img-fluid" />
       </div>
-     {/* < div className="container">
+      {/* < div className="container">
      <h1 className="title-h1">Find Your Perfect Cruise Escape with Trending Cruise!
      </h1>
      </div> */}
       {/* Search Bar */}
       <Container className="search-container">
-       
+
         <Row className="align-items-center">
           <Col md={3}>
             <Form.Group>
@@ -49,7 +49,7 @@ const CruiseSearch = () => {
             </Form.Group>
           </Col>
           <Col md={3} className="d-flex align-items-end ">
-            <Button className="btn-search btn btn-sm" style={{marginTop: '29px'}}>Search</Button>
+            <Button className="btn-search btn btn-sm" style={{ marginTop: '29px' }}>Search</Button>
           </Col>
         </Row>
       </Container>

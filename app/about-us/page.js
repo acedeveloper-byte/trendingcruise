@@ -15,9 +15,7 @@ const page = () => {
         <div className="hero-image">
           <img src="/images/cruise-home-poster.png" alt="Cruise Ship" className="img-fluid" />
         </div>
-
       </div>
-
       <section>
 
         <Container>
