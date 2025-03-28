@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Col, Row } from "react-bootstrap";
 // import "./globals.css";
 
 
@@ -37,6 +37,21 @@ const CruiseHeader = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <Container fluid className="py-2">
+        <Row className="d-flex flex-nowrap overflow-auto justify-content-center" style={{ whiteSpace: "nowrap" }}>
+          {["celebrity", "holland", "disney", "azamara", "norwegian", "royal-caribbean"].map((item, index) => (
+            <Col key={index} xs="auto" className="m-2 px-3">
+              <a
+                className="text-decoration-none text-black"
+                style={{ fontSize: "11px", fontWeight: "bold", display: "inline-block" }}
+                href={`/${item}`}
+              >
+                {item.replace("-", "").toUpperCase()} CRUISE
+              </a>
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   )
 }
