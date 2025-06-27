@@ -41,10 +41,10 @@ const CruiseFooter = () => {
               />
               <h4 className="fw-bold text-dark">
                 <a
-                  href="tel: +1(855) 590-0764"
+                  href="tel: +1(844) 987-7014 "
                   className="text-decoration-none text-dark"
                 >
-                  +1(855) 590-0764
+                  +1(844) 987-7014 
                 </a>
               </h4>
               <p className="text-muted small">
